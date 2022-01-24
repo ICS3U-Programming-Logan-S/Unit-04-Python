@@ -38,7 +38,7 @@ def main():
 
         solution = calculate(user_sign, num_1_float, num_2_float)
         print()
-        print("The answer is {}".format(solution))
+        print("The answer is {:.2f}".format(solution))
     except Exception:
         print("The answer is invalid (Invalid numbers)")
 
